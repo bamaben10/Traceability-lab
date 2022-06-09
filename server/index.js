@@ -21,4 +21,4 @@ app.put("/api/movies/:id", controllerFile.updateMovie);
 
 const port = process.env.PORT || 4004;
 
-app.listen(port, () => console.log(`running on 4004 ${port}`));
+app.listen(port, () => console.log(`running on ${port}`));
